@@ -784,10 +784,9 @@ void firstscr()
             printf ("              ");
 
             SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),FOREGROUND_BLUE+FOREGROUND_RED+FOREGROUND_GREEN+FOREGROUND_RED+FOREGROUND_RED);
-            locate (50,45);printf ("Programmed By (BCT Group)");
-            locate (50,46);printf ("Sushil Shrestha(546)");
-            locate (50,47);printf ("Saujan Maka(538)");
-            locate (50,48);printf ("Sudan Maharjan(541)");
+            locate (50,45);printf ("Welcome To The Game of Snakes and Ladders");
+            locate (50,47);printf ("Do Enjoy !!!");
+            locate (50,48);printf ("Ashish Kumar :)");
         }
         Sleep(25);
     }
